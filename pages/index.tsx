@@ -3,6 +3,8 @@ import { Box, Text, Center, Button } from '@chakra-ui/react';
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import { FaFacebook, FaTwitter, FaGithub } from 'react-icons/fa';
+import LikeJs from '../public/assets/js-like.svg';
+import FrameWorks from '../public/assets/frameworks.svg';
 
 const Home = () => {
   return (
@@ -13,6 +15,7 @@ const Home = () => {
       </Head>
       <Layout>
         <section>
+          <LikeJs />
           <Box minH={["160px", "240px", "320px", "360px"]}>
             <Center>
               <Text>Portfolio</Text>
@@ -23,6 +26,7 @@ const Home = () => {
           </Box>
         </section>
         <section>
+          <FrameWorks />
           <Box minH={["160px", "240px", "320px", "360px"]}>
             <Center>
               <Text>Skills</Text>

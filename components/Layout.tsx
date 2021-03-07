@@ -30,6 +30,9 @@ export default function Layout({ children }) {
           <Center>
             <Text color="#93a5b1" fontSize="0.75rem">Copyright (C) Match Dev All Rights Reserved.</Text>
           </Center>
+          <Center>
+            <Text color="#93a5b1" fontSize="0.75rem"><a href="https://storyset.com/web">Illustration by Freepik Storyset</a></Text>
+          </Center>
         </Box>
       </footer>
     </>

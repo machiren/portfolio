@@ -1,8 +1,10 @@
 import { EmailIcon } from '@chakra-ui/icons';
 import { Box, Text, Center, Button } from '@chakra-ui/react';
+import { Container } from "@chakra-ui/react"
+import { Flex, Spacer } from "@chakra-ui/react"
+import { FaFacebook, FaTwitter, FaGithub } from 'react-icons/fa';
 import Head from 'next/head';
 import Layout from '../components/Layout';
-import { FaFacebook, FaTwitter, FaGithub } from 'react-icons/fa';
 import LikeJs from '../public/assets/js-like.svg';
 import FrameWorks from '../public/assets/frameworks.svg';
 
@@ -15,34 +17,48 @@ const Home = () => {
       </Head>
       <Layout>
         <section>
-          <LikeJs />
-          <Box minH={["160px", "240px", "320px", "360px"]}>
-            <Center>
-              <Text>Portfolio</Text>
-            </Center>
-            <Center>
-              <Button leftIcon={<FaGithub />}>view GitHub</Button>
-            </Center>
-          </Box>
+          <Container maxW="container.lg">
+            <Flex flexWrap="wrap">
+              <Box>
+                <Text fontSize="5xl" as="i">Web Engineer Programmer</Text>
+              </Box>
+              <LikeJs />
+            </Flex>
+            <Box>
+                <Center>
+                  <Text>Portfolio</Text>
+                </Center>
+                <Center>
+                  <Button leftIcon={<FaGithub />}>view GitHub</Button>
+                </Center>
+              </Box>
+          </Container>
         </section>
         <section>
-          <FrameWorks />
-          <Box minH={["160px", "240px", "320px", "360px"]}>
-            <Center>
-              <Text>Skills</Text>
-            </Center>
-            <Center>
-              <Button>view Resume</Button>
-            </Center>
-          </Box>
+          <Container maxW="container.lg">
+            <Flex flexWrap="wrap">
+              <FrameWorks />
+              <Box>
+                <Text fontSize="5xl" as="i">Web Engineer Programmer</Text>
+              </Box>
+            </Flex>
+            <Box>
+              <Center>
+                <Text>Skills</Text>
+              </Center>
+              <Center>
+                <Button>view Resume</Button>
+              </Center>
+            </Box>
+          </Container>
         </section>
         <section>
-          <Box minH={["160px", "240px", "320px", "360px"]}>
+          <Box>
             <Text>Works</Text>
           </Box>
         </section>
         <section>
-          <Box minH={["160px", "240px", "320px", "360px"]}>
+          <Box>
             <Center>
               <Text>Contact</Text>
             </Center>

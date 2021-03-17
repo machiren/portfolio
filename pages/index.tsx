@@ -24,7 +24,7 @@ const Home = () => {
       </Head>
       <Layout>
         <section>
-          <Container maxW="container.lg" minH="300px" mt="2rem">
+          <Container maxW="container.lg" minH="300px" mt="2rem" p="2rem">
             <Flex flexWrap="wrap" justifyContent="space-around">
               <Flex flexDirection="column" justifyContent="center" alignItems="center">
                 <Center>
@@ -48,25 +48,25 @@ const Home = () => {
           </Container>
         </section>
         <section>
-          <Container maxW="container.lg" mt="2rem" minH="300px">
-            <Flex flexWrap="wrap" justifyContent="center" mb="2rem">
+          <Container maxW="container.lg" mt="2rem" minH="300px" p="2rem">
+            <Flex flexWrap="wrap" justifyContent="center">
               <Text fontSize="5xl" as="i">Portfolio</Text>
             </Flex>
             <Flex flexWrap="wrap" justifyContent="center" flexDirection={['column', 'column', 'column', 'row']} alignItems="center">
-              <Box w="100%" maxW="300px" mt="2rem" borderWidth="1px" borderRadius="lg" overflow="hidden">
+              <Box w="100%" maxW="240px" mt="2rem" borderWidth="1px" borderRadius="lg" overflow="hidden">
                 <PortfolioCard />
               </Box>
-              <Box w="100%" maxW="300px" mt="2rem" borderWidth="1px" borderRadius="lg" overflow="hidden" ml={['0px', '0px', '0px', '2rem']}>
+              <Box w="100%" maxW="240px" mt="2rem" borderWidth="1px" borderRadius="lg" overflow="hidden" ml={['0px', '0px', '0px', '2rem']}>
                 <PortfolioCard />
               </Box>
-              <Box w="100%" maxW="300px" mt="2rem" borderWidth="1px" borderRadius="lg" overflow="hidden" ml={['0px', '0px', '0px', '2rem']}>
+              <Box w="100%" maxW="240px" mt="2rem" borderWidth="1px" borderRadius="lg" overflow="hidden" ml={['0px', '0px', '0px', '2rem']}>
                 <PortfolioCard />
               </Box>
             </Flex>
           </Container>
         </section>
         <section>
-          <Container maxW="container.lg" mt="2rem" minH="300px">
+          <Container maxW="container.lg" mt="2rem" minH="300px" p="2rem">
             <Flex flexWrap="wrap" justifyContent="space-around" flexDirection="row-reverse">
               <Flex flexDirection="column" justifyContent="center" alignItems="center">
                 <Text fontSize="5xl" as="i">Tech stack</Text>
@@ -85,7 +85,7 @@ const Home = () => {
           </Container>
         </section>
         <section>
-          <Container maxW="container.lg" mt="2rem" mb="2rem" minH="300px">
+          <Container maxW="container.lg" mt="2rem" mb="2rem" minH="300px" p="2rem">
             <Flex flexWrap="wrap" justifyContent="center" mb="2rem">
               <Text fontSize="5xl" as="i">Contact</Text>
             </Flex>

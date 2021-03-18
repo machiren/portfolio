@@ -41,7 +41,7 @@ const Home = () => {
                   </Center>
                 </Box>
               </Flex>
-              <Box w="100%" maxW="400px">
+              <Box w="100%" maxW="500px">
                 <LikeJs />
               </Box>
             </Flex>
@@ -54,10 +54,10 @@ const Home = () => {
             </Flex>
             <Flex flexWrap="wrap" justifyContent="center" flexDirection={['column', 'column', 'column', 'row']} alignItems="center">
               <Box w="100%" maxW="240px" mt="2rem" borderWidth="1px" borderRadius="lg" overflow="hidden">
-                <PortfolioCard />
+                <PortfolioCard title="OSS有志を募るWebサービス" />
               </Box>
               <Box w="100%" maxW="240px" mt="2rem" borderWidth="1px" borderRadius="lg" overflow="hidden" ml={['0px', '0px', '0px', '2rem']}>
-                <PortfolioCard />
+                <PortfolioCard title="ボイスシェアプラットフォーム" />
               </Box>
               <Box w="100%" maxW="240px" mt="2rem" borderWidth="1px" borderRadius="lg" overflow="hidden" ml={['0px', '0px', '0px', '2rem']}>
                 <PortfolioCard />
@@ -78,7 +78,7 @@ const Home = () => {
                   </Center>
                 </Box>
               </Flex>
-              <Box w="100%" maxW="400px">
+              <Box w="100%" maxW="500px">
                 <FrameWorks />
               </Box>
             </Flex>

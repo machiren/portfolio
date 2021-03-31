@@ -28,6 +28,9 @@ export default function Layout({ children }) {
       <footer>
         <Box backgroundColor="#F9FAFF" pt="40px" pb="40px">
           <Center>
+            <Text color="#93a5b1" fontSize="0.75rem" textDecor="underline"><a href="https://storyset.com/web" target="_blank">Illustration by Freepik Storyset</a></Text>
+          </Center>
+          <Center>
             <Text color="#93a5b1" fontSize="0.75rem">Copyright (C) Match Dev All Rights Reserved.</Text>
           </Center>
         </Box>

@@ -31,7 +31,7 @@ const Home = () => {
                   <Text fontSize="2xl" as="samp">Hello World</Text>
                 </Center>
                 <Center>
-                  <Text fontSize="4xl" as="i">Web Engineer</Text>
+                  <Text fontSize="4xl" as="i">A Web Engineer</Text>
                 </Center>
                 <Box mt="1rem">
                   <Center>
@@ -41,7 +41,7 @@ const Home = () => {
                   </Center>
                 </Box>
               </Flex>
-              <Box w="100%" maxW="500px">
+              <Box w="100%" maxW="600px">
                 <LikeJs />
               </Box>
             </Flex>
@@ -78,7 +78,7 @@ const Home = () => {
                   </Center>
                 </Box>
               </Flex>
-              <Box w="100%" maxW="500px">
+              <Box w="100%" maxW="600px">
                 <FrameWorks />
               </Box>
             </Flex>
